@@ -1,0 +1,47 @@
+@import "primereact/resources/themes/lara-light-blue/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
+
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f6f8;
+}
+
+.cadastro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.cadastro-card {
+    width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.p-field {
+    margin-bottom: 15px;
+}
+
+.p-button-lg {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
